@@ -1,2 +1,1 @@
-# mySpringboot
-springboot学习
+第一节：搭建基础的运行环境，代码参考HelloWorld项目
