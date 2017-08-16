@@ -13,3 +13,6 @@
 
 5、或者通过使用注解@ConfigurationProperties(prefix="xxx",locations="classpath:xxx"),使用这种方式
    需要为个属性提供set方法
+
+6、如果是自定的配置文件：可以使用注解@PropertySource(value = "")
+   eg:@PropertySource(value = "classpath:test.properties")

@@ -49,7 +49,7 @@
 
   </dependencies>
   <build>
-    <finalName>HelloWorld</finalName>
+    <finalName>springboot-properties</finalName>
     <!--maven编译依赖插件-->
     <plugins>
         <plugin>

@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
  * Created by wuhaijun on 2017/8/7.
  */
 
-@ConfigurationProperties(prefix = "student")
-@Component
+//@ConfigurationProperties(prefix = "student")
+//@Component
 public class Student {
 
     private String name;
