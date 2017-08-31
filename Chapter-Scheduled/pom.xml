@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.whj.springboot</groupId>
-  <artifactId>Chapter-rabbitMq</artifactId>
+  <artifactId>Chapter-Scheduled</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Chapter-rabbitMq</name>
+  <name>Chapter-Scheduled</name>
   <url>http://maven.apache.org</url>
 
   <parent>
@@ -26,12 +26,6 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
-
-    <!--rabbitMq 核心依赖-->
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-amqp</artifactId>
     </dependency>
 
     <!--spring boot test依赖-->
