@@ -2,7 +2,7 @@
 
     ①在springboot项目启动入口使用注解@EnableScheduling，作用是启动调度任务
 
-    ②创建定时任务类，交由spring管理，在类方法上使用注解@Scheduled来者是定时
+    ②创建定时任务类，交由spring管理，在类方法上使用注解@Scheduled来设置定时操作
 
     @Scheduled注解有一下属性：
         1、initialDelay = 5000：表示在系统动之后延迟5s再执行定时任务
@@ -14,3 +14,5 @@
 
         使用springboot实现多线程执行定时任务：
         实现SchedulingConfigurer接口，重写configureTasks()方法
+
+2、使用@Async注解来实现异步执行
